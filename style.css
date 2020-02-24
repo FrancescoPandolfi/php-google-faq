@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url("https://fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eO.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Google Sans";
+    src: url("https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2") format("woff2");
+}
+
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: "Google Sans", arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-bottom: 100px;
+  padding: 22px 22px 0 22px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.logo {
+  font-family: "Product Sans", arial, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo img {
+  height: 22px;
+}
+span.privacy {
+  font-size: 20px;
+  transform: translateY(-2px);
+  color: #5f6368;
+  margin-left: 10px;
+}
+
+ul.menu {
+  width: 100%;
+  color: #5f6368;
+  display: flex;
+  font-size: 13px;
+  font-weight: bold;
+}
+.menu li {
+  letter-spacing: 0.5px;
+  margin-right: 40px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+li.margin-right-auto {
+  margin-right: auto;
+}
+.active {
+  padding-bottom: 3px;
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
